@@ -209,9 +209,9 @@
             this.bindData();
             this.showPic();
             this.infoAuto();
-            /*var timer = window.setInterval(function () {
+            var timer = window.setInterval(function () {
              carousel.autoPlay()
-             }, 5000);*/
+             }, 5000);
             this.navigation();
         }
     };

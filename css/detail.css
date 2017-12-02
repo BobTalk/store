@@ -504,9 +504,11 @@ html, body {
 }
 
 .introduce .performance-box .basis-summary {
+    width: calc(100% - .7rem);
     padding: .16rem;
     display: inline-block;
     vertical-align: top;
+    float: right;
 }
 
 .introduce .performance-box .basis {

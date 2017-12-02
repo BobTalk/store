@@ -87,18 +87,22 @@ function voluation(result) {
     var seal = document.getElementById('seal');
     var url = window.location.href;
     var urlObj = format(url);
+    var str = "",
+        str1 = "";
     for (var key in result) {
         if (urlObj.goodsId == key) {
-            route.innerHTML = '<a href="index.html">首页</a>' +
-                '<a href="javascript:void(0)">&gt;</a>' +
-                '<a href="list.html?Id=' + result[key].oneId + '">' + result[key].oneName + '</a> ' +
-                '<a href="javascript:void(0)">&gt;</a>' +
-                '<a href="list.html?subId=' + result[key].twoId + '">' + result[key].twoName + '</a>' +
-                '<a href="javascript:void(0)">&gt;</a>' +
-                '<a href="javascript:void(0)" class="blur">' + result[key].name + '</a>';
-            goodsName.innerText = result[key].name;
-            money.innerText = result[key].price;
-            img.src = result[key].pUrl;
+            (function () {
+                route.innerHTML = '<a href="index.html">首页</a>' +
+                    '<a href="javascript:void(0)">&gt;</a>' +
+                    '<a href="list.html?Id=' + result[key].oneId + '">' + result[key].oneName + '</a> ' +
+                    '<a href="javascript:void(0)">&gt;</a>' +
+                    '<a href="list.html?subId=' + result[key].twoId + '">' + result[key].twoName + '</a>' +
+                    '<a href="javascript:void(0)">&gt;</a>' +
+                    '<a href="javascript:void(0)" class="blur">' + result[key].name + '</a>';
+                goodsName.innerText = result[key].name;
+                money.innerText = result[key].price;
+                img.src = result[key].pUrl;
+            })();
             for (var index in result[key].serviceTerm) {
                 select.innerHTML += '<li>' + result[key].serviceTerm[index] + '</li>'
             }
@@ -114,13 +118,25 @@ function voluation(result) {
                     introduce.innerHTML += '<div class="service clear"><div class="service-content"> ' + result[key].introduce[i].content + '</div></div>'
                 }
                 if (result[key].introduce[i].type == 'text_table') {
-                    introduce.innerHTML += '<div class="performance clear">' +
+                    console.log(result[key].introduce[i]);
+                    str += '<div class="performance clear">' +
                         '<div class="performance-box">' +
                         '<div class="basis">' +
                         '<p class="basis-name">' + result[key].introduce[i].head_name + '</p>' +
-                        '<div class="basis-summary">' +
-                        '</div></div></div></div>'
+                        '<div class="basis-summary">';
+                    for (var jj = 0; jj < result[key].introduce[i].content_group.length; jj++) {
+                        var obj = result[key].introduce[i].content_group;
+                        if (obj[jj]['text_style'] == '1') {
+                            str += '<h6>' + obj[jj].text_content + '</h6>';
+                        }
+                        if (obj[jj]['text_style'] == '2') {
+                            str += '<p style="text-indent: 2em;line-height: .2rem;">' + obj[jj].text_content + '</p>'
+                        }
+                    }
+                    str += '</div></div></div></div>';
+
                 }
+                introduce.innerHTML = str;
                 if (result[key].introduce[i].type == 'picture') {
                     introduce.innerHTML += '<div class="service clear"><div style="padding: .1rem;text-indent:0;" class="service-content"><img style="width: 100%;height: 100%;" src="' + result[key].introduce[i].content + '" alt=""></div></div>'
                 }
@@ -132,24 +148,8 @@ function voluation(result) {
                         '</div></div>';
                 }
             }
-
-            for (var i = 0, len = result[key].introduce.length; i < len; i++) {
-                try {
-                    for (var k = 0, len = result[key].introduce[i].content_group.length; k < len; k++) {
-                        var obj = result[key].introduce[i].content_group;
-                        if (obj[k]['text_style'] == '1') {
-                            document.getElementsByClassName('basis-summary')[0].innerHTML += '<h6>' + obj[k].text_content + '</h6>'
-                        } else if (obj[k]['text_style'] == '2') {
-                            document.getElementsByClassName('basis-summary')[0].innerHTML += '<p style="text-indent: 2em;line-height: .2rem">' + obj[k].text_content + '</p>'
-                        }
-                    }
-                } catch (e) {
-                }
-            }
         }
     }
-
-
 }
 
 /*下拉框*/
