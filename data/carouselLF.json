@@ -1,0 +1,26 @@
+[
+  {
+    "winPage": "detail.html?goodsId=10001",
+    "src": "../images/banner1.png",
+    "goodsNameF": "中国电信天翼大数据",
+    "goodsNameL": "飞龙平台",
+    "goodsSummary": "风格统一、快速部署、管理方便、能力开放",
+    "goodsButton": "查看详情"
+  },
+  {
+    "winPage": "detail.html?goodsId=10002",
+    "src": "../images/banner2.png",
+    "goodsNameF": "云主机",
+    "goodsNameL": "弹性云主机",
+    "goodsSummary": "即开即用，弹性扩展，安全防护，稳定可靠",
+    "goodsButton": "查看详情"
+  },
+  {
+    "winPage": "detail.html?goodsId=10008",
+    "src": "../images/banner3.png",
+    "goodsNameF": "随选网络",
+    "goodsNameL": "网络即服务",
+    "goodsSummary": "提速降费，敏捷开通，云网协同，国际加速",
+    "goodsButton": "查看详情"
+  }
+]

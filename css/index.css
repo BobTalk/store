@@ -1,0 +1,470 @@
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.bg {
+    background: #fff;
+    border-bottom: 2px solid #46bce0;
+}
+
+.bg .pl {
+    padding-left: 1.53rem;
+    box-sizing: border-box;
+}
+
+.bg .pl a {
+    font-size: .16rem;
+    color: #000;
+    font-weight: 500;
+}
+
+.bg .pl a.clo {
+    color: #1b4c98 !important;
+}
+
+.main {
+    position: relative;
+}
+
+.main .product {
+    height: 4rem;
+}
+
+.main .product .navbar {
+    position: absolute;
+    min-width: 1.53rem;
+    top: -.35rem;
+    font-size: .12rem;
+    background: #1b4c98;
+
+}
+
+.navbar .navbar-name {
+    width: 100%;
+    height: .34rem;
+    line-height: .34rem;
+    padding: 0 .27rem;
+    background: #1eacde;
+    color: #fff;
+    font-size: .16rem;
+    box-sizing: border-box;
+}
+
+.navbar .navbar-item {
+    font-size: .12rem;
+}
+
+.navbar .navbar-item .list {
+    position: relative;
+    padding: .12rem .27rem;
+    z-index: 9999;
+}
+
+.navbar-item .list .sub-list {
+    display: inline-block !important;
+    /* line-height: .32rem;
+     margin-left: .22rem;*/
+    padding: .12rem .27rem;
+}
+
+.navbar-item .list .sub-list a {
+    color: #8b8b8b;
+}
+
+.navbar .navbar-item li .icon {
+    display: inline-block;
+    width: .15rem;
+    height: .15rem;
+    background: url("../images/white.png") no-repeat;
+    float: right;
+}
+
+.navbar .navbar-item li:hover {
+    background: #fff;
+}
+
+.navbar .navbar-item li:hover .wares {
+    color: #3399cc !important;
+}
+
+.navbar .navbar-item li:hover .icon {
+    background: url("../images/blue.png") no-repeat;
+}
+
+.navbar .navbar-item li .navbar-info {
+    display: none;
+    position: absolute;
+    min-width: 2.5rem;
+    max-width: 6rem;
+    /* min-height: .77rem;*/
+    left: 1.53rem;
+    top: 0;
+    background: #fff;
+    border: 1px solid #46bce0;
+    border-left: none;
+    white-space: nowrap;
+}
+
+.navbar .navbar-item li:hover .navbar-info {
+    display: inline-block;
+}
+
+.navbar .navbar-item .list .wares {
+    display: inline-block;
+    color: #fff !important;
+}
+
+.main .product .carouse {
+    position: absolute;
+    right: 0;
+    top: -.01rem;
+}
+
+.main .hot {
+    position: relative;
+    width: 100%;
+    padding-left: .47rem;
+    margin-top: .15rem;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.main .hot .gradual {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+
+}
+.main .hot .gradual.one{
+    background: -webkit-linear-gradient(to right, #23adde, #abdbe5);
+    background: linear-gradient(to right, #23adde, #abdbe5);
+}
+.main .hot .gradual.two{
+    background: -webkit-linear-gradient(to right, #42a25a, #a1d5c8);
+    background: linear-gradient(to right, #42a25a, #a1d5c8);
+}
+.main .hot .gradual.three{
+    background: -webkit-linear-gradient(to right, #ebac2b, #f7e47e);
+    background: linear-gradient(to right, #ebac2b, #f7e47e);
+}
+.main .hot .gradual.four{
+    background: -webkit-linear-gradient(to right, #1a2c54, #607b98);
+    background: linear-gradient(to right, #1a2c54, #607b98);
+}
+.main .hot .gradual.five{
+    background: -webkit-linear-gradient(to right, #23b495, #a2d9e0);
+    background: linear-gradient(to right, #23b495, #a2d9e0);
+}
+.main .hot .title {
+    height: .56rem;
+    line-height: .56rem;
+    font-size: .2rem;
+    box-sizing: border-box;
+}
+
+.hot .title .logo {
+    display: inline-block;
+    width: .35rem;
+    height: .35rem;
+    vertical-align: middle;
+}
+
+.hot .wares {
+    padding: .1rem 0 .34rem 0;
+}
+
+.hot .wares li {
+    float: left;
+    width: 2.44rem;
+    border: 1px solid #FFF;
+    box-sizing: border-box;
+    text-align: center;
+    vertical-align: middle;
+    font-size: .12rem;
+}
+
+.hot .wares li:hover {
+    border: 1px solid #1cacdc;
+}
+
+.wares li:hover .wares-buy {
+    background: #1eacde;
+    color: #fff !important;
+}
+
+.hot .wares li .wares-icon {
+    width: .97rem;
+    height: .97rem;
+    margin: .1rem auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+/*.wares li .wares-icon img {
+    width: 100%;
+    height: 100%;
+}*/
+
+.wares li .wares-info {
+    margin-bottom: .16rem;
+}
+
+.wares li .wares-info .wares-name {
+    font-size: .18rem;
+    color: #77c1e6;
+}
+
+.wares li .wares-info .wares-summary {
+    line-height: .36rem;
+    font-size: .14rem;
+    color: #656462;
+}
+
+.wares li .wares-info .wares-buy {
+    display: inline-block;
+    padding: .08rem .14rem;
+    border: 1px solid #1eacde;
+    color: #1eacde;
+    border-radius: .03rem;
+    box-sizing: border-box;
+}
+
+.guide {
+    width: 100%;
+    height: 4.57rem;
+    background: #fff url("../images/serbg.png") no-repeat right !important;
+}
+
+.hot .business li {
+    float: left;
+    font-size: .18rem;
+}
+
+.hot .business li.bg {
+    width: 2.22rem;
+    height: 3.1rem;
+    padding-left: .1rem;
+    box-sizing: border-box;
+    background: url("../images/1.jpg") repeat;
+    margin-right: .57rem;
+}
+
+.hot .business li.wd {
+    width: calc(100% - 2.22rem - 0.57rem);
+}
+
+.business li.bg .info {
+    line-height: .36rem;
+    color: #fff;
+}
+
+.business li.bg .link {
+    position: relative;
+    display: inline-block;
+    width: .3rem;
+    height: .3rem;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+li.bg .link .business-trigone {
+    position: absolute;
+    width: .2rem;
+    height: .2rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.business li.bg .link:hover .business-trigone {
+    margin-left: 2px;
+}
+
+.business .particulars li {
+    min-width: 1.09rem;
+    margin-right: 1.26rem;
+    margin-bottom: .4rem;
+    padding-left: .3rem;
+    box-sizing: border-box;
+}
+
+.business .particulars li .circles {
+    position: absolute;
+    width: .08rem;
+    height: .08rem;
+    top: 25%;
+    left: -.3rem;
+    background: url("../images/circles.png");
+}
+
+.business .particulars .ml {
+    margin-left: .94rem;
+}
+
+.business .particulars .ls {
+    margin-right: 0 !important;
+}
+
+.business .particulars li a {
+    display: block;
+    font-size: .14rem;
+    line-height: .3rem;
+}
+
+.business .particulars .link-title {
+    position: relative;
+    height: .3rem;
+    font-size: .18rem;
+    color: #1aaede;
+}
+
+.hot .tel .tel-item li {
+    position: relative;
+    float: left;
+    margin: 0 .56rem;
+    padding-bottom: .64rem;
+    font-size: .12rem;
+}
+
+.hot .tel .tel-item li .front {
+    width: 1.64rem;
+    height: 1.79rem;
+    background: url("../images/lbx.png") no-repeat;
+    transition: 1s;
+}
+
+.hot .tel .tel-item li a {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) !important;
+    text-align: center;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.hot .tel .tel-item .front.overturn {
+    transform: rotateX(180deg);
+}
+
+.hot .tel .tel-item li:hover .front {
+    transform: rotateY(180deg);
+}
+
+.hot .tel .tel-item li:hover .overturn {
+    transform: rotateZ(180deg);
+}
+
+.hot .tel .tel-item .tel-icon {
+    width: 1rem;
+    height: 1rem;
+    margin: 0 auto;
+    margin-top: .3rem;
+}
+
+.hot .tel .tel-item .tel-summary {
+    color: #ebaa2a;
+}
+
+.enterprise .enterprise-item {
+    padding-bottom: .6rem;
+}
+
+.enterprise .enterprise-item li {
+    float: left;
+    width: 5.18rem;
+    font-size: .12rem;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.enterprise .enterprise-item .enterprise-logo {
+    width: 5.18rem;
+    height: 2.63rem;
+    overflow: hidden;
+}
+
+.enterprise .enterprise-item .enterprise-summary {
+    width: 5.18rem;
+    height: .38rem;
+    line-height: .38rem;
+    padding: 0 .35rem 0 .18rem;
+    background: #eeeeee;
+    box-sizing: border-box;
+}
+
+.innovate {
+    width: 11.16rem;
+    height: 2.48rem;
+    font-size: .12rem;
+    border: 1px solid #eeeeee;
+    padding: .14rem .14rem .18rem .76rem;
+    background: url("../images/cyfw.png") no-repeat;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.innovate .innovate-info {
+    float: left;
+    width: 6.6rem;
+}
+
+.innovate .innovate-info .innovate-name {
+    font-size: .16rem;
+    color: #1fabdc;
+}
+
+.innovate .innovate-info .innovate-name i {
+    display: inline-block;
+    width: 3px;
+    height: 13px;
+    border-left: 3px solid #1fabdc;
+    margin-right: .18rem;
+}
+
+.innovate .innovate-info .innovate-link {
+    padding-left: .25rem;
+    margin-top: .15rem;
+}
+
+.innovate .innovate-info .innovate-link a {
+    display: block;
+    line-height: .32rem;
+}
+
+.innovate .innovate-icon {
+    float: right;
+    width: 3.18rem;
+    height: 2.14rem;
+}
+
+.pd {
+    padding-bottom: 1.03rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1431 @@
+{
+  "10001": {
+    "oneName": "企业应用",
+    "oneId": "1",
+    "twoName": "大数据服务",
+    "twoId": "11",
+    "name": "中国电信天翼大数据飞龙平台",
+    "price": "面议",
+    "hasArea": true,
+    "serviceTerm": {
+      "1": "一次性",
+      "2": "一个月",
+      "3": "一年"
+    },
+    "pUrl": "../images/pro/10001.png",
+    "servicePro": {
+      "profile": "中国电信集团公司是我国特大型国有通信企业、上海世博会全球合作伙伴，连续多年入选“世界500强企业”，主要经营固定电话、移动通信、卫星通信、互联网接入及应用等综合信息服务。2016年5月，国务院首批双创“企业示范基地”。8月，中国电信集团公司在“2016中国企业500强”中排名第29位。",
+      "sUrl": "../images/ser/20001.png"
+    },
+    "introduce": [
+      {
+        "type": "text_table",
+        "head_name": "核心功能",
+        "content_group": [
+          {
+            "text_style": "1",
+            "text_content": "创建VPC"
+          },
+          {
+            "text_style": "2",
+            "text_content": "创建VPC时支持用户自定义VPC名称。"
+          },
+          {
+            "text_style": "2",
+            "text_content": "VPC可用网段为："
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "content": "中国电信天翼大数据飞龙平台是大数据全业务流程平台产品，实现数据的采集、存储，挖掘和分析以及数据服务和可视化展现等全方位服务；还提供平台自动化部署、监管和安全保障，以及多租户、分权分域等能力。"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10001001.png"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10001002.png"
+      },
+      {
+        "type": "text_title",
+        "content": "平台核心功能"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10001003.png"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10001004.png"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10001005.png"
+      },
+      {
+        "type": "text",
+        "content": "平台优势"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10001006.png"
+      },
+      {
+        "type": "text",
+        "content": "异构环境一键部署"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10001007.png"
+      },
+      {
+        "type": "text",
+        "content": "可视化的业务流程"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10001008.png"
+      },
+      {
+        "type": "text",
+        "content": "大屏展示"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10001009.png"
+      },
+      {
+        "type": "text",
+        "content": "智能分析"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10001010.png"
+      },
+      {
+        "type": "text",
+        "content": "多级的数据管控"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10001011.png"
+      },
+      {
+        "type": "text",
+        "content": "便捷、高效的运维工具提供"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10001012.png"
+      }
+    ]
+  },
+  "10002": {
+    "oneName": "企业应用",
+    "oneId": "1",
+    "twoName": "云服务",
+    "twoId": "12",
+    "name": "云主机",
+    "price": "面议",
+    "hasArea": true,
+    "serviceTerm": {
+      "1": "一次性",
+      "2": "一个月",
+      "3": "一年"
+    },
+    "pUrl": "../images/pro/10002.png",
+    "servicePro": {
+      "profile": "2012年3月，中国电信云计算公司成立，国内首家运营商级的云计算公司诞生。该公司是中国电信旗下的专业公司，是国内最大的云计算服务提供商，集约化统领中国电信全网包括IDC、CDN等在内的广义云业务。也是中国电信“去电信化”改革的大胆尝试，该公司定位于互联网企业，开创了中国电信集约化运营的新局面。中国电信云计算公司目前拥有上海、广东、四川三大资源池，在建的中国电信云计算内蒙古信息园将在2013年6月投产。该公司肩负着加强中国电信商业模式、应用服务创新的重要使命，是推动中国电信‘新三者’战略转型的核心，也是中国电信未来业务的重要增长点。",
+      "sUrl": "../images/ser/20002.png"
+    },
+    "introduce": [
+    ]
+  },
+  "10003": {
+    "oneName": "企业应用",
+    "oneId": "1",
+    "twoName": "云服务",
+    "twoId": "12",
+    "name": "对象存储",
+    "price": "面议",
+    "hasArea": true,
+    "serviceTerm": {
+      "1": "一次性",
+      "2": "一个月",
+      "3": "一年"
+    },
+    "pUrl": "../images/pro/10003.png",
+    "servicePro": {
+      "profile": "2012年3月，中国电信云计算公司成立，国内首家运营商级的云计算公司诞生。该公司是中国电信旗下的专业公司，是国内最大的云计算服务提供商，集约化统领中国电信全网包括IDC、CDN等在内的广义云业务。也是中国电信“去电信化”改革的大胆尝试，该公司定位于互联网企业，开创了中国电信集约化运营的新局面。中国电信云计算公司目前拥有上海、广东、四川三大资源池，在建的中国电信云计算内蒙古信息园将在2013年6月投产。该公司肩负着加强中国电信商业模式、应用服务创新的重要使命，是推动中国电信‘新三者’战略转型的核心，也是中国电信未来业务的重要增长点。",
+      "sUrl": "../images/ser/20002.png"
+    },
+    "introduce": [
+    ]
+  },
+  "10004": {
+    "oneName": "企业应用",
+    "oneId": "1",
+    "twoName": "云通信应用",
+    "twoId": "13",
+    "name": "智能语音平台",
+    "price": "面议",
+    "hasArea": false,
+    "serviceTerm": {
+      "1": "一次性",
+      "2": "一个月",
+      "3": "一年"
+    },
+    "pUrl": "../images/pro/10004.png",
+    "servicePro": {
+      "profile": "易米云通公司成立于2012年9月，以移动互联+SaaS的方式重新定义企业语音/沟通平台，涵盖云总机、呼叫中心及开放平台API等企业所需的各项通信功能。",
+      "sUrl": "../images/ser/20004.png"
+    },
+    "introduce": [
+      {
+        "type": "text",
+        "content": "企业通讯从未如此简单"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10004001.png"
+      },
+      {
+        "type": "text",
+        "content": "点击呼叫"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10004002.png"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10004003.png"
+      },
+      {
+        "type": "text",
+        "content": "号码保护"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10004004.png"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10004005.png"
+      },
+      {
+        "type": "text",
+        "content": "语音通知"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10004006.png"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10004007.png"
+      },
+      {
+        "type": "text",
+        "content": "语音验证码"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10004008.png"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10004009.png"
+      }
+    ]
+  },
+  "10005": {
+    "oneName": "通讯服务",
+    "oneId": "2",
+    "twoName": "手机",
+    "twoId": "14",
+    "name": "手机服务",
+    "price": "面议",
+    "hasArea": true,
+    "serviceTerm": {
+      "1": "一次性",
+      "2": "一个月",
+      "3": "一年"
+    },
+    "pUrl": "../images/pro/10005.png",
+    "servicePro": {
+      "profile": "",
+      "sUrl": ""
+    },
+    "introduce": [
+      {
+        "type": "picture",
+        "content": "../images/content/10005001.png"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10005002.png"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10005003.png"
+      }
+    ]
+  },
+  "10006": {
+    "oneName": "通讯服务",
+    "oneId": "2",
+    "twoName": "固话",
+    "twoId": "15",
+    "name": "固话服务",
+    "price": "面议",
+    "hasArea": false,
+    "serviceTerm": {
+      "1": "一次性",
+      "2": "一个月",
+      "3": "一年"
+    },
+    "pUrl": "../images/pro/10006.png",
+    "servicePro": {
+      "profile": "",
+      "sUrl": ""
+    },
+    "introduce": [
+      {
+        "type": "picture",
+        "content": "../images/content/10006001.png"
+      },
+      {
+        "type": "text",
+        "content": "您的电话申请开通七彩铃音业务后，使用其他电话终端拨打您电话时，听到的不再是传统的回铃音，而是您预先设置好的个性化音乐。"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10006002.png"
+      },
+      {
+        "type": "text",
+        "content": "来电显示功能开通后，它能自动将他人打来的电话号码显示在具有来电显示功能的电话机（或来电显示器）屏幕上。别人给您打电话时，您可以清楚的知道来电的号码，确定是否能够方便接听。当您外出或不方便接听电话时，开通来电显示功能后您的话机可以存储号码，可以将您接不到的电话号码自动储存起来。并可以有效屏蔽骚扰电话。"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10006003.png"
+      },
+      {
+        "type": "text",
+        "content": "可将没有拨打长途功能的固话开通/取消拨打长途功能。"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10006004.png"
+      }
+    ]
+  },
+  "10007": {
+    "oneName": "通讯服务",
+    "oneId": "2",
+    "twoName": "宽带",
+    "twoId": "16",
+    "name": "宽带服务",
+    "price": "面议",
+    "hasArea": false,
+    "serviceTerm": {
+      "1": "一次性",
+      "2": "一个月",
+      "3": "一年"
+    },
+    "pUrl": "../images/pro/10007.png",
+    "servicePro": {
+      "profile": "",
+      "sUrl": ""
+    },
+    "introduce": [
+      {
+        "type": "picture",
+        "content": "../images/content/10007001.png"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10007002.png"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10007003.png"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10007004.png"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10007005.png"
+      },
+      {
+        "type": "text",
+        "content": "续约提速"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10007006.png"
+      },
+      {
+        "type": "text",
+        "content": "光纤新装"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10007007.png"
+      }
+    ]
+  },
+  "10008": {
+    "oneName": "通讯服务",
+    "oneId": "2",
+    "twoId": "17",
+    "twoName": "综合解决方案",
+    "name": "随选网络",
+    "price": "面议",
+    "hasArea": true,
+    "serviceTerm": {
+      "1": "一次性",
+      "2": "一个月",
+      "3": "一年"
+    },
+    "pUrl": "../images/pro/10008.png",
+    "servicePro": {
+      "profile": "中国电信股份有限公司北京研究院（原中国电信集团北京研究院）是中国电信集团公司为适应集团公司发展和电信市场竞争需要，于2001年4月18日挂牌成立的科研机构，旨在成为集团公司以及各省级公司的企业决策智库、技术创新引擎和产品创新孵化器。",
+      "sUrl": "../images/ser/20008.png"
+    },
+    "introduce": [
+      {
+        "type": "text",
+        "content": "中国电信结合中小企业的用户需求，不断探索创新研发模式，聚合SDN、NFV和云等新 技术，通过自主创新和联合研发相结合，聚合华为、烽火、华三、中兴等多个厂家，推出面向 中小企业的随选网络系统和服务，为客户提供“可视”、“随选”、“自服务”的全新网络体 验。 面向中小企业的随选网络系统由中国电信北京研究院完成核心组件开发，包括业务门户、 协同编排器、SDN控制器等。系统采用开放架构，融合ODL、ONOS、ONAP等多个开源组 织的开源成果，提供南北向标准接口，已与业界主流厂家对接，完成多业务场景的落地实施。 该系统在国内首次实现了单系统全业务解决方案，获得技术专利二十余项，获MEF年度杰出 贡献奖、SDN/NFV峰会最佳产品奖、中国通信行业峰会最佳系统奖。其中中国电信自主研发 的协同编排器为国内首款多域多厂家编排器，自研SDN控制器为国内首例EVPN控制面商业 实例。"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10008001.png"
+      },
+      {
+        "type": "text",
+        "content": "云网协同解决方案随选网络云网协同解决方案，通过 SDN 编排器与云管平台进行协同，自动配置 VxLAN 隧道技术，为客户提供分钟级开通的入云专线通道和混合云间通道，客户可选择利用电信163 网络或CN2精品网进行专线通道承载，以及高等级数据加密，充分享受电信网络带来的差异 化云网协同体验"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10008002.png"
+      },
+      {
+        "type": "text",
+        "content": "智能园区解决方案随选网络智能园区解决方案，面向创业园区或写字楼的中小微企业，提供零资产、零配置、 轻便灵活的云网协同业务。在园区管理方统一调度下，客户可以在入驻当天获得日常运营所需 的网络资源和云资源，无需安装任何终端设备，无需购买服务器设备。随选园区解决方案能够 全面满足园区类客户租期灵活、租户流动性大、频繁变更办公室或办公位的要求，同时帮助园 区实现管理和服务转型升级"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10008003.png"
+      },
+      {
+        "type": "text",
+        "content": "智能物联解决方案随选网络智能物联网解决方案，以SDN自动化配置专线通道方式替代传统拨号专线，服 务各类物联网平台客户。该解决方案可使客户购买终端成本降低 90%，同时客户平台侧无需 购买静态IP专线产品，各类接入方式下均能实现几分钟内开通专线通道。随选网络智能物联 网解决方案还为客户提供了自助进行故障溯源的手段和系统自动恢复能力，帮助客户简化日 常运维工作"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10008004.png"
+      },
+      {
+        "type": "text",
+        "content": "多点VPN解决方案随选网络多点VPN解决方案，利用SDN技术实现多点VPN按需控制和灵活配置，服务 具有多个分支机构的中小企业客户。该方案支持企业设立新门店、新站点，以及紧急通信场景， 能够快速完成多点L2/L3的VPN组网，并可利用CN2精品网实现重点业务的快速通道搭建。 另外，对于有国际通信需求的企业，随选网络系统可同步开通国际加速通道，提供低时延高保 障的国际访问体验"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10008005.png"
+      }
+    ]
+  },
+  "10009": {
+    "oneName": "创业服务",
+    "oneId": "3",
+    "twoId": "18",
+    "twoName": "工商注册",
+    "threeName": "工商注册",
+    "name": "有限责任公司注册",
+    "price": "面议",
+    "hasArea": true,
+    "serviceTerm": {
+      "1": "一次性",
+      "2": "一个月",
+      "3": "一年"
+    },
+    "pUrl": "../images/pro/10009.png",
+    "servicePro": {
+      "profile": "多有米，互联网+时代财税行业领跑者，专注于企业财税服务。为迎合“大众创业，万众创新”的时代浪潮，多有米大胆推行公益注册公司服务，为创业者提供安全可靠的服务同时，做好政府的助手。本公司提供公司注册、记账报税、工商变更、纳税筹划。",
+      "sUrl": "../images/ser/20009.png"
+    },
+    "introduce": [
+      {
+        "type": "text",
+        "content": "公司注册、记账报税、工商变更、纳税筹划"
+      }
+    ]
+  },
+  "10010": {
+    "oneName": "创业服务",
+    "oneId": "3",
+    "twoId": "18",
+    "twoName": "工商注册",
+    "threeName": "工商注册",
+    "threeId": "101",
+    "name": "个人独资企业注册",
+    "price": "面议",
+    "hasArea": true,
+    "serviceTerm": {
+      "1": "一次性",
+      "2": "一个月",
+      "3": "一年"
+    },
+    "pUrl": "../images/pro/10010.png",
+    "servicePro": {
+      "profile": "北京轩鑫豪管理顾问咨询有限公司，提供内资注册，外资注册，记账报税，提供注册地址，申请税控器，证照变更，公司注销，进出口备案，酒类备案，食品经营许可证，美容美发许可证、一般纳税人的申请，社保开户，公积金开户等服务",
+      "sUrl": "../images/ser/20010.png"
+    },
+    "introduce": [
+      {
+        "type": "text",
+        "content": ""
+      }
+    ]
+  },
+  "10011": {
+    "oneName": "创业服务",
+    "oneId": "3",
+    "twoId": "18",
+    "twoName": "工商注册",
+    "threeName": "公司变更",
+    "threeId": "102",
+    "name": "法人、高管或注册资本变更（法人变更）",
+    "price": "面议",
+    "hasArea": true,
+    "serviceTerm": {
+      "1": "一次性",
+      "2": "一个月",
+      "3": "一年"
+    },
+    "pUrl": "../images/pro/10011.png",
+    "servicePro": {
+      "profile": "成都顶呱呱投资集团有限公司，公司由“一站式企业服务平台”升级为“一站式商业服务平台”。 目前，顶呱呱集团已拥有北京、成都、深圳、广州、重庆分公司，将在中国开办12家分子公司，分别分布于珠三角、长三角地区和部分省会城市。旗下拥有20余个分子品牌，覆盖工商、会计、财税、资质、知识产权等16大业态，经营600多项企业业服务项目",
+      "sUrl": "../images/ser/20011.png"
+    },
+    "introduce": [
+      {
+        "type": "text",
+        "content": ""
+      }
+    ]
+  },
+  "10012": {
+    "oneName": "创业服务",
+    "oneId": "3",
+    "twoId": "18",
+    "threeId": "102",
+    "twoName": "工商注册",
+    "threeName": "公司变更",
+    "name": "同区公司注册地址变更",
+    "price": "面议",
+    "hasArea": true,
+    "serviceTerm": {
+      "1": "一次性",
+      "2": "一个月",
+      "3": "一年"
+    },
+    "pUrl": "../images/pro/10012.png",
+    "servicePro": {
+      "profile": "北京泽林宝缘财务顾问有限公司，于2003年3月12日在北京创立，专注于为中小微企业提供一站式的基础企业服务、财税服务，如公司注册、公司变更、商标注册、代理记账、报税、发票管理、许可证申请、商标注册、专利申请、版权申请等服务。",
+      "sUrl": "../images/ser/20012.png"
+    },
+    "introduce": [
+      {
+        "type": "text",
+        "content": ""
+      }
+    ]
+  },
+  "10013": {
+    "oneName": "创业服务",
+    "oneId": "3",
+    "twoId": "19",
+    "threeId": "103",
+    "twoName": "财税记账",
+    "threeName": "代理记账",
+    "name": "小规模代理记账",
+    "price": "面议",
+    "hasArea": true,
+    "serviceTerm": {
+      "1": "一次性",
+      "2": "一个月",
+      "3": "一年"
+    },
+    "pUrl": "../images/pro/10013.png",
+    "servicePro": {
+      "profile": "成都顶呱呱投资集团有限公司，公司由“一站式企业服务平台”升级为“一站式商业服务平台”。 目前，顶呱呱集团已拥有北京、成都、深圳、广州、重庆分公司，将在中国开办12家分子公司，分别分布于珠三角、长三角地区和部分省会城市。旗下拥有20余个分子品牌，覆盖工商、会计、财税、资质、知识产权等16大业态，经营600多项企业业服务项目。",
+      "sUrl": "../images/ser/20013.png"
+    },
+    "introduce": [
+      {
+        "type": "text",
+        "content": ""
+      }
+    ]
+  },
+  "10014": {
+    "oneName": "创业服务",
+    "oneId": "3",
+    "twoId": "19",
+    "threeId": "103",
+    "twoName": "财税记账",
+    "threeName": "代理记账",
+    "name": "代理记账一般纳税人年度",
+    "price": "面议",
+    "hasArea": true,
+    "serviceTerm": {
+      "1": "一次性",
+      "2": "一个月",
+      "3": "一年"
+    },
+    "pUrl": "../images/pro/10014.png",
+    "servicePro": {
+      "profile": "小鸡快务是一家专注于中小企业财税服务的财务公司。 “让财税更简单、创业更轻松”是小鸡快务的使命。以中小企业财税服务为基础，秉承以人为本和专业高效结合的服务理念，通过具有前瞻性的互联网技术来优化传统业务办理流程，提升效率、减少人力成本，致力于让每个中小企业享受专业、高效、贴心的财税服务。 小鸡快务为中小企业提供公司注册、代理记账、财务外包、税务筹划、财务咨询及项目融资等一站式新型的在线财税服务。",
+      "sUrl": "../images/ser/20014.png"
+    },
+    "introduce": [
+      {
+        "type": "text",
+        "content": ""
+      }
+    ]
+  },
+  "10015": {
+    "oneName": "创业服务",
+    "oneId": "3",
+    "twoId": "19",
+    "threeId": "104",
+    "twoName": "财税记账",
+    "threeName": "税务代办",
+    "name": "发票代购",
+    "price": "面议",
+    "hasArea": true,
+    "serviceTerm": {
+      "1": "一次性",
+      "2": "一个月",
+      "3": "一年"
+    },
+    "pUrl": "../images/pro/10015.png",
+    "servicePro": {
+      "profile": "普达财务是一家专注于企业外包服务的顾问公司，成立于2009年，服务范围涵盖企业工商代理、代理记账、会计审计、社保公积金代理、纳税筹划、财务顾问、人力资源外包等多元化、一站式的综合外包内容。",
+      "sUrl": "../images/ser/20015.png"
+    },
+    "introduce": [
+      {
+        "type": "text",
+        "content": ""
+      }
+    ]
+  },
+  "10016": {
+    "oneName": "创业服务",
+    "oneId": "3",
+    "twoId": "20",
+    "threeId": "105",
+    "twoName": "商标版权",
+    "threeName": "国内商标",
+    "name": "国内加急申请商标注册（1天即可出受理号）",
+    "price": "面议",
+    "hasArea": true,
+    "serviceTerm": {
+      "1": "一次性",
+      "2": "一个月",
+      "3": "一年"
+    },
+    "pUrl": "../images/pro/10016.png",
+    "servicePro": {
+      "profile": "",
+      "sUrl": ""
+    },
+    "introduce": [
+      {
+        "type": "text",
+        "content": ""
+      }
+    ]
+  },
+  "10017": {
+    "oneName": "创业服务",
+    "oneId": "3",
+    "twoId": "20",
+    "threeId": "105",
+    "twoName": "商标版权",
+    "threeName": "国内商标",
+    "name": "商标普通注册（加急服务）",
+    "price": "面议",
+    "hasArea": true,
+    "serviceTerm": {
+      "1": "一次性",
+      "2": "一个月",
+      "3": "一年"
+    },
+    "pUrl": "../images/pro/10017.png",
+    "servicePro": {
+      "profile": "",
+      "sUrl": ""
+    },
+    "introduce": [
+      {
+        "type": "text",
+        "content": ""
+      }
+    ]
+  },
+  "10018": {
+    "oneName": "创业服务",
+    "oneId": "3",
+    "twoId": "20",
+    "threeId": "106",
+    "twoName": "商标版权",
+    "threeName": "商标周边",
+    "name": "商标变更",
+    "price": "面议",
+    "hasArea": true,
+    "serviceTerm": {
+      "1": "一次性",
+      "2": "一个月",
+      "3": "一年"
+    },
+    "pUrl": "../images/pro/10018.png",
+    "servicePro": {
+      "profile": "",
+      "sUrl": ""
+    },
+    "introduce": [
+      {
+        "type": "text",
+        "content": ""
+      }
+    ]
+  },
+  "10019": {
+    "oneName": "创业服务",
+    "oneId": "3",
+    "twoId": "20",
+    "threeId": "107",
+    "twoName": "商标版权",
+    "threeName": "专利服务",
+    "name": "发明专利申请",
+    "price": "面议",
+    "hasArea": true,
+    "serviceTerm": {
+      "1": "一次性",
+      "2": "一个月",
+      "3": "一年"
+    },
+    "pUrl": "../images/pro/10019.png",
+    "servicePro": {
+      "profile": "",
+      "sUrl": ""
+    },
+    "introduce": [
+      {
+        "type": "text",
+        "content": ""
+      }
+    ]
+  },
+  "10020": {
+    "oneName": "创业服务",
+    "oneId": "3",
+    "twoId": "20",
+    "threeId": "107",
+    "twoName": "商标版权",
+    "threeName": "专利服务",
+    "name": "外观设计专利申请",
+    "price": "面议",
+    "hasArea": true,
+    "serviceTerm": {
+      "1": "一次性",
+      "2": "一个月",
+      "3": "一年"
+    },
+    "pUrl": "../images/pro/10020.png",
+    "servicePro": {
+      "profile": "",
+      "sUrl": ""
+    },
+    "introduce": [
+      {
+        "type": "text",
+        "content": ""
+      }
+    ]
+  },
+  "10021": {
+    "oneName": "创业服务",
+    "oneId": "3",
+    "twoId": "20",
+    "threeId": "108",
+    "twoName": "商标版权",
+    "threeName": "版权服务",
+    "name": "计算机软件著作权登记",
+    "price": "面议",
+    "hasArea": true,
+    "serviceTerm": {
+      "1": "一次性",
+      "2": "一个月",
+      "3": "一年"
+    },
+    "pUrl": "../images/pro/10021.png",
+    "servicePro": {
+      "profile": "",
+      "sUrl": ""
+    },
+    "introduce": [
+      {
+        "type": "text",
+        "content": ""
+      }
+    ]
+  },
+  "10022": {
+    "oneName": "创业服务",
+    "oneId": "3",
+    "twoId": "20",
+    "threeId": "108",
+    "twoName": "商标版权",
+    "threeName": "版权服务",
+    "name": "软件著作权登记",
+    "price": "面议",
+    "hasArea": true,
+    "serviceTerm": {
+      "1": "一次性",
+      "2": "一个月",
+      "3": "一年"
+    },
+    "pUrl": "../images/pro/10022.png",
+    "servicePro": {
+      "profile": "",
+      "sUrl": ""
+    },
+    "introduce": [
+      {
+        "type": "text",
+        "content": ""
+      }
+    ]
+  },
+  "10023": {
+    "oneName": "创业服务",
+    "oneId": "3",
+    "twoId": "21",
+    "threeId": "109",
+    "twoName": "人事社保",
+    "threeName": "企业社保",
+    "name": "社保公积金开户",
+    "price": "面议",
+    "hasArea": true,
+    "serviceTerm": {
+      "1": "一次性",
+      "2": "一个月",
+      "3": "一年"
+    },
+    "pUrl": "../images/pro/10023.png",
+    "servicePro": {
+      "profile": "",
+      "sUrl": ""
+    },
+    "introduce": [
+      {
+        "type": "text",
+        "content": ""
+      }
+    ]
+  },
+  "10024": {
+    "oneName": "创业服务",
+    "oneId": "3",
+    "twoId": "21",
+    "threeId": "",
+    "twoName": "人事社保",
+    "threeName": "企业社保",
+    "name": "企业社保代理",
+    "price": "面议",
+    "hasArea": true,
+    "serviceTerm": {
+      "1": "一次性",
+      "2": "一个月",
+      "3": "一年"
+    },
+    "pUrl": "../images/pro/10024.png",
+    "servicePro": {
+      "profile": "",
+      "sUrl": ""
+    },
+    "introduce": [
+      {
+        "type": "text",
+        "content": ""
+      }
+    ]
+  },
+  "10025": {
+    "oneName": "创业服务",
+    "oneId": "3",
+    "twoId": "21",
+    "threeId": "",
+    "twoName": "人事社保",
+    "threeName": "个人社保",
+    "name": "个人公积金代缴（全国）",
+    "price": "面议",
+    "hasArea": true,
+    "serviceTerm": {
+      "1": "一次性",
+      "2": "一个月",
+      "3": "一年"
+    },
+    "pUrl": "../images/pro/10025.png",
+    "servicePro": {
+      "profile": "",
+      "sUrl": ""
+    },
+    "introduce": [
+      {
+        "type": "text",
+        "content": ""
+      }
+    ]
+  },
+  "10026": {
+    "oneName": "创业服务",
+    "oneId": "3",
+    "twoId": "21", "threeId": "110",
+    "twoName": "人事社保",
+    "threeName": "个人社保",
+    "name": "北京个人公积金代缴",
+    "price": "面议",
+    "hasArea": true,
+    "serviceTerm": {
+      "1": "一次性",
+      "2": "一个月",
+      "3": "一年"
+    },
+    "pUrl": "../images/pro/10026.png",
+    "servicePro": {
+      "profile": "",
+      "sUrl": ""
+    },
+    "introduce": [
+      {
+        "type": "text",
+        "content": ""
+      }
+    ]
+  },
+  "10027": {
+    "oneName": "创业服务",
+    "oneId": "3",
+    "twoId": "21",
+    "threeId": "111",
+    "twoName": "人事社保",
+    "threeName": "企业人事综合",
+    "name": "SaaS在线E-HR管理系统",
+    "price": "面议",
+    "hasArea": true,
+    "serviceTerm": {
+      "1": "一次性",
+      "2": "一个月",
+      "3": "一年"
+    },
+    "pUrl": "../images/pro/10027.png",
+    "servicePro": {
+      "profile": "",
+      "sUrl": ""
+    },
+    "introduce": [
+      {
+        "type": "text",
+        "content": ""
+      }
+    ]
+  },
+  "10028": {
+    "oneName": "创业服务",
+    "oneId": "3",
+    "twoId": "22",
+    "threeId": "112",
+    "twoName": "企业采购",
+    "threeName": "员工福利",
+    "name": "全国白领精英体检套餐",
+    "price": "面议",
+    "hasArea": true,
+    "serviceTerm": {
+      "1": "一次性",
+      "2": "一个月",
+      "3": "一年"
+    },
+    "pUrl": "../images/pro/10028.png",
+    "servicePro": {
+      "profile": "",
+      "sUrl": ""
+    },
+    "introduce": [
+      {
+        "type": "text",
+        "content": ""
+      }
+    ]
+  },
+  "10029": {
+    "oneName": "创业服务",
+    "oneId": "3",
+    "twoId": "22",
+    "threeId": "113",
+    "twoName": "企业采购",
+    "threeName": "商保福利",
+    "name": "补充医疗保险服务-企业七险一金方案",
+    "price": "面议",
+    "hasArea": true,
+    "serviceTerm": {
+      "1": "一次性",
+      "2": "一个月",
+      "3": "一年"
+    },
+    "pUrl": "../images/pro/10029.png",
+    "servicePro": {
+      "profile": "",
+      "sUrl": ""
+    },
+    "introduce": [
+      {
+        "type": "text",
+        "content": ""
+      }
+    ]
+  },
+  "10030": {
+    "oneName": "创业服务",
+    "oneId": "3",
+    "twoId": "22",
+    "threeId": "114",
+    "twoName": "企业采购",
+    "threeName": "礼品采购",
+    "name": "名片印制，免费设计",
+    "price": "面议",
+    "hasArea": true,
+    "serviceTerm": {
+      "1": "一次性",
+      "2": "一个月",
+      "3": "一年"
+    },
+    "pUrl": "../images/pro/10030.png",
+    "servicePro": {
+      "profile": "",
+      "sUrl": ""
+    },
+    "introduce": [
+      {
+        "type": "text",
+        "content": ""
+      }
+    ]
+  },
+  "10031": {
+    "oneName": "创业服务",
+    "oneId": "3",
+    "twoId": "23",
+    "threeId": "115",
+    "twoName": "法律服务",
+    "threeName": "劳动人事",
+    "name": "起草审核保密协议",
+    "price": "面议",
+    "hasArea": true,
+    "serviceTerm": {
+      "1": "一次性",
+      "2": "一个月",
+      "3": "一年"
+    },
+    "pUrl": "../images/pro/10031.png",
+    "servicePro": {
+      "profile": "",
+      "sUrl": ""
+    },
+    "introduce": [
+      {
+        "type": "text",
+        "content": ""
+      }
+    ]
+  },
+  "10032": {
+    "oneName": "创业服务",
+    "oneId": "3",
+    "twoId": "23",
+    "threeId": "116",
+    "twoName": "法律服务",
+    "threeName": "法律意见书",
+    "name": "公司设立、股权变更、增资扩股法律意见书",
+    "price": "面议",
+    "hasArea": true,
+    "serviceTerm": {
+      "1": "一次性",
+      "2": "一个月",
+      "3": "一年"
+    },
+    "pUrl": "../images/pro/10032.png",
+    "servicePro": {
+      "profile": "",
+      "sUrl": ""
+    },
+    "introduce": [
+      {
+        "type": "text",
+        "content": ""
+      }
+    ]
+  },
+  "10033": {
+    "oneName": "创业服务",
+    "oneId": "3",
+    "twoId": "24",
+    "threeId": "117",
+    "twoName": "营销推广",
+    "threeName": "营销服务",
+    "name": "企业基础营销（品牌咨询+品牌新闻公告+口碑营销）",
+    "price": "面议",
+    "hasArea": true,
+    "serviceTerm": {
+      "1": "一次性",
+      "2": "一个月",
+      "3": "一年"
+    },
+    "pUrl": "../images/pro/10033.png",
+    "servicePro": {
+      "profile": "",
+      "sUrl": ""
+    },
+    "introduce": [
+      {
+        "type": "text",
+        "content": ""
+      }
+    ]
+  },
+  "10034": {
+    "oneName": "创业服务",
+    "oneId": "3",
+    "twoId": "24",
+    "threeId": "118",
+    "twoName": "营销推广",
+    "threeName": "市场活动",
+    "name": "年会A套餐",
+    "price": "面议",
+    "hasArea": true,
+    "serviceTerm": {
+      "1": "一次性",
+      "2": "一个月",
+      "3": "一年"
+    },
+    "pUrl": "../images/pro/10034.png",
+    "servicePro": {
+      "profile": "",
+      "sUrl": ""
+    },
+    "introduce": [
+      {
+        "type": "text",
+        "content": ""
+      }
+    ]
+  },
+  "10035": {
+    "oneName": "创新服务",
+    "oneId": "4",
+    "twoId": "25",
+    "twoName": "中国电信互联网+能力",
+    "name": "云录音",
+    "price": "面议",
+    "hasArea": true,
+    "serviceTerm": {
+      "1": "一次性",
+      "2": "一个月",
+      "3": "一年"
+    },
+    "pUrl": "../images/pro/10035.png",
+    "servicePro": {
+      "profile": "中国电信通信能力开放平台是面向政企客户的新型通信资源提供平台是汇聚行业需求，分享解决方案，协同多方服务和互联网支撑平台。",
+      "sUrl": "../images/ser/20035.png"
+    },
+    "introduce": [
+      {
+        "type": "text",
+        "content": "面向中国电信固定电话、语音专线，在大网侧将话务路由指向集中平台，实现通话录音功能，供企业进行质检、分析。"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10035001.png"
+      },
+      {
+        "type": "text",
+        "content": "产品优势"
+      },
+      {
+        "type": "text",
+        "content": "电信服务，产品可靠性高；"
+      },
+      {
+        "type": "text",
+        "content": "大网侧录音，无需任何硬件采购；"
+      },
+      {
+        "type": "text",
+        "content": "运营商级平台，系统更稳定；"
+      },
+      {
+        "type": "text",
+        "content": "互联网级接入，集成更便捷；"
+      },
+      {
+        "type": "text",
+        "content": "产品功能"
+      },
+      {
+        "type": "text",
+        "content": "1.去话录音"
+      },
+      {
+        "type": "text",
+        "content": "企业员工外呼时，将触发主叫录音业务。通话前需由电信或客户向通话双方播放录音提示音。"
+      },
+      {
+        "type": "text",
+        "content": "如企业通过语音专线（中继）外呼，平台将按照事先受理的中继并发数进行录音，超出并发数原则上平台会继续进行录音，但录音文件需在客户完成中继并发数变更后再行提供。"
+      },
+      {
+        "type": "text",
+        "content": "2.来话录音"
+      },
+      {
+        "type": "text",
+        "content": "当有用户回拨时，将触发被叫录音业务。通话前需由电信或客户向通话双方播放录音提示音。"
+      },
+      {
+        "type": "text",
+        "content": "3.录音文件推送"
+      },
+      {
+        "type": "text",
+        "content": "通话结束后，话音能力平台将向客户推送录音文件下载地址，平台暂不开放录音文件存储功能，鼓励客户自行保存或由当地电信提供存储服务，平台可配合对接。"
+      },
+      {
+        "type": "text",
+        "content": "所有录音文件在话音能力平台暂存一周（7天）供客户提取下载，一周之后平台将自动删除录音文件。"
+      },
+      {
+        "type": "text",
+        "content": "5.详细功能配置"
+      },
+      {
+        "type": "text",
+        "content": "针对客户的细节要求，如对是否播放录音提示、录音文件格式、推送时限、录音码率等详细需求，平台将提供统一的功能配置界面，供客户选择设置。"
+      },
+      {
+        "type": "text",
+        "content": "应用场景"
+      },
+      {
+        "type": "text",
+        "content": "很多有联系外部客户进行服务、营销沟通需求的政企客户希望对员工的通话进行录音，以便针对录音内容进行质检、分析，对业务员的服务质量、业务量进行管控，规范员工行为，提升服务水平，并为未来的业务发展提供数据依据等。传统录音方式客户需要购买设备，各分支机构在本地录音再通过虚拟专网汇聚到统一平台，实施复杂，且对通话质量有一定影响。中国电信提供的云录音服务，无需客户本地施工，即可对客户分布全国的固定电话/语音专线（中继）进行录音，灵活、便捷地满足客户需求。"
+      }
+    ]
+  },
+  "10036": {
+    "oneName": "创新服务",
+    "oneId": "4",
+    "twoId": "25",
+    "twoName": "中国电信互联网+能力",
+    "name": "云中继",
+    "price": "面议",
+    "hasArea": true,
+    "serviceTerm": {
+      "1": "一次性",
+      "2": "一个月",
+      "3": "一年"
+    },
+    "pUrl": "../images/pro/10036.png",
+    "servicePro": {
+      "profile": "中国电信通信能力开放平台是面向政企客户的新型通信资源提供平台是汇聚行业需求，分享解决方案，协同多方服务和互联网支撑平台。",
+      "sUrl": "../images/ser/20035.png"
+    },
+    "introduce": [
+      {
+        "type": "text",
+        "content": "通过中继云化实现语音专线通话路由到集中平台进行集中管控、通过云中继实现平台接续全国话务，并根据客户需求外显属地号码。"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10036001.png"
+      },
+      {
+        "type": "picture",
+        "content": "../images/content/10036002.png"
+      },
+      {
+        "type": "text",
+        "content": "产品优势"
+      },
+      {
+        "type": "text",
+        "content": "电信服务，产品可靠性高；"
+      },
+      {
+        "type": "text",
+        "content": "呼叫中心级产品，支持高并发；"
+      },
+      {
+        "type": "text",
+        "content": "运营商级平台，系统更稳定；"
+      },
+      {
+        "type": "text",
+        "content": "互联网级接入，集成更便捷；"
+      },
+      {
+        "type": "text",
+        "content": "产品功能"
+      },
+      {
+        "type": "text",
+        "content": "1. 全国中继一点汇接"
+      },
+      {
+        "type": "text",
+        "content": "企业呼叫中心外呼所在地必须实装中继，被叫落地侧需新开通非实装中继。通过中国电信通信能力开放平台，将企业外呼侧的已开通实装中继与全国各地的新开通非实装中继进行云化并连接。政企客户通过实装中继外呼全国非实装中继，显示被叫落地侧中继码号，回拨该码号可连接至外呼时的实装中继。"
+      },
+      {
+        "type": "text",
+        "content": "2. 中继外呼集中管控"
+      },
+      {
+        "type": "text",
+        "content": "针对已开通的实装中继。当企业使用该中继外呼时，将话务路由至集团能力开放平台，实现中继的云化管理。"
+      },
+      {
+        "type": "text",
+        "content": "（1）外呼频次控制"
+      },
+      {
+        "type": "text",
+        "content": "实现同一号码外呼时的频次限制。"
+      },
+      {
+        "type": "text",
+        "content": "实现同一企业名下所有中继号码对同一被叫用户外呼的频次限制。"
+      },
+      {
+        "type": "text",
+        "content": "（2）外呼流量控制"
+      },
+      {
+        "type": "text",
+        "content": "按照中继受理时中继最大并发数控制中继号码的外呼并发量。"
+      },
+      {
+        "type": "text",
+        "content": "按照客户指定的允许/禁止呼叫时段，控制中继号码相应的可呼叫时段。"
+      },
+      {
+        "type": "text",
+        "content": "（3）外呼黑名单控制"
+      },
+      {
+        "type": "text",
+        "content": "根据用户要求，限制特定号码拨打该用户与解除限制。"
+      },
+      {
+        "type": "text",
+        "content": "根据政府、企业要求，限制特定号码外呼与解除限制。"
+      },
+      {
+        "type": "text",
+        "content": "3. 呼叫接续、呼叫控制配置"
+      },
+      {
+        "type": "text",
+        "content": "针对政企客户对于云中继呼叫接续号码关系绑定、呼叫控制策略等细节需求，平台将提供统一的门户界面，供客户选择设置。"
+      },
+      {
+        "type": "text",
+        "content": "应用场景"
+      },
+      {
+        "type": "text",
+        "content": "1、本地开通全国落地"
+      },
+      {
+        "type": "text",
+        "content": "所属地申请开通云中继，绑定各省号码，自动匹配被叫号码所属地呼叫。"
+      },
+      {
+        "type": "text",
+        "content": "2、一点开通管控全国"
+      },
+      {
+        "type": "text",
+        "content": "集团开通云中继绑定分公司号码，集中管控单一号码呼叫频次、限制外呼时间、限制同时外呼量等"
+      },
+      {
+        "type": "text",
+        "content": "3、统一号码规范形象"
+      },
+      {
+        "type": "text",
+        "content": "公司对外呼叫显示号码统一，不论手机座机外呼都可显示统一号码。"
+      },
+      {
+        "type": "text",
+        "content": "4、电话线路自助配置"
+      },
+      {
+        "type": "text",
+        "content": "自助控制电话并发线路数量，根据话务量随时调整节约成本。"
+      },
+      {
+        "type": "text",
+        "content": "5、办公电话跟人走"
+      },
+      {
+        "type": "text",
+        "content": "工位改变电话跟人走，还可绑定手机，无需担心办公电话无人接听。"
+      }
+    ]
+  },
+  "10037": {
+    "oneName": "创新服务",
+    "oneId": "4",
+    "twoName": "天翼账号",
+    "twoId": "26",
+    "name": "免密登录",
+    "price": "面议",
+    "hasArea": true,
+    "serviceTerm": {
+      "1": "一次性",
+      "2": "一个月",
+      "3": "一年"
+    },
+    "pUrl": "../images/pro/10037.png",
+    "servicePro": {
+      "profile": "天翼帐号是对用户使用的中国电信天翼手机号、固话号的统称。天翼帐号集多种业务/服务帐号特性为一体，既可以是用户的上网帐号、网/掌厅等服务帐号，也是向用户提供互联网（含移动互联网）应用等系列增值业务的统一账号，并且面向电信自营业务平台及第三方合作业务平台提供用户共享和认证开放功能。",
+      "sUrl": "../images/ser/20037.png"
+    },
+    "introduce": [
+      {
+        "type": "text",
+        "content": ""
+      }
+    ]
+  }
+}

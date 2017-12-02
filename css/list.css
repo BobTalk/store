@@ -1,0 +1,127 @@
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.mt {
+    margin-top: .7rem;
+}
+
+.main .product .navbar {
+    background: #fff;
+}
+
+.navbar .navbar-item {
+    border: 1px solid #f3f3f3;
+    box-sizing: border-box;
+}
+
+.navbar .navbar-item li a {
+    display: inline-block;
+    color: #000 !important;
+}
+
+.main .list-content {
+    width: calc(100% - 2rem);
+}
+
+.main .list-content .detail-list {
+    /* height: 6.48rem;
+     overflow-y: auto;*/
+    padding-bottom: .1rem;
+}
+
+.main .list-content .detail-list .date {
+    display: none;
+}
+
+.list-content .page-link .pagelink {
+    padding: .05rem .1rem;
+    background: #f3f3f3 !important;
+    margin-right: 5px;
+}
+
+.list-content .page-link {
+    padding-top: .12rem;
+    text-align: center;
+    font-size: .12rem;
+}
+
+.main .sort {
+    height: .4rem;
+    line-height: .4rem;
+    padding-bottom: .1rem;
+    font-size: .12rem;
+}
+
+.sort .sort-list {
+    margin-right: 1.04rem;
+    cursor: pointer;
+}
+
+.sort .sort-list .sort-list-icon {
+    display: inline-block;
+    width: .17rem;
+    height: .17rem;
+    background: url("../images/sort03.png") no-repeat;
+    vertical-align: middle;
+}
+
+.list-content .detail-list .detail-list-info {
+    padding: .2rem .2rem .24rem .3rem;
+    margin-right: .05rem;
+    font-size: .14rem;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.list-content .detail-list .detail-list-info:hover {
+    box-shadow: 3px 0 2px #cae3ee, -3px 0 2px #cae3ee, 0 3px 2px #cae3ee, 0 -3px 2px #cae3ee;
+}
+
+.detail-list .detail-list-info .detail-list-info-logo {
+    width: .9rem;
+    height: .77rem;
+    margin-right: .36rem;
+    overflow: hidden;
+}
+
+.detail-list .detail-list-info .detail-list-info-content {
+    width: 5.36rem;
+}
+
+.detail-list-info .detail-list-info-content .detail-list-info-name {
+    font-size: .2rem;
+    color: #1eacde;
+}
+
+.detail-list-info .detail-list-info-content .detail-list-info-summary {
+    padding: .22rem 0;
+}
+
+.detail-list-info .name {
+    display: inline-block;
+    padding-right: .15rem;
+    color: #8e8e8e !important;
+}
+
+.detail-list-info .num {
+    display: inline-block;
+    font-size: .16rem;
+    width: 1.08rem;
+    color: #f4b041;
+}
+
+.detail-list-info .list-info {
+    padding: .1rem 0;
+}
+
+.detail-list-info .list-info .list-button {
+    padding: .08rem .27rem;
+    background: #1cacde;
+    color: #fff;
+    border-radius: 3px;
+}
+
