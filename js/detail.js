@@ -78,6 +78,8 @@ function $ajax(options) {
 function voluation(result) {
     var navContent = document.getElementById('navContent');
     var introduce = document.getElementById("introduce");
+    var h = introduce.getElementsByClassName('basis');
+    var subH = document.getElementsByClassName('basis-summary');
     var route = document.getElementById('route');
     var goodsName = document.getElementById('goodsName');
     var money = document.getElementById('money');
@@ -118,11 +120,10 @@ function voluation(result) {
                     introduce.innerHTML += '<div class="service clear"><div class="service-content"> ' + result[key].introduce[i].content + '</div></div>'
                 }
                 if (result[key].introduce[i].type == 'text_table') {
-                    console.log(result[key].introduce[i]);
                     str += '<div class="performance clear">' +
-                        '<div class="performance-box">' +
+                        '<div class="performance-box" style="display: flex;flex-direction: row;">' +
                         '<div class="basis">' +
-                        '<p class="basis-name">' + result[key].introduce[i].head_name + '</p>' +
+                        '<div class="boxDetail"><p class="basis-name">' + result[key].introduce[i].head_name + '</p></div>' +
                         '<div class="basis-summary">';
                     for (var jj = 0; jj < result[key].introduce[i].content_group.length; jj++) {
                         var obj = result[key].introduce[i].content_group;
@@ -219,3 +220,5 @@ function accordion() {
         }
     }
 }
+
+console.log(document.getElementsByClassName('basis-summary'));

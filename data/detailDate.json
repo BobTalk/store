@@ -180,9 +180,26 @@
             "text_style": "1",
             "text_content": "完善的安全防护"
           },
+
           {
             "text_style": "2",
             "text_content": "- Anti-DDoS流量清洗、服务器安全、网站安全服务"
+          },
+          {
+            "text_style": "1",
+            "text_content": "安全防护"
+          },
+          {
+            "text_style": "2",
+            "text_content": "- 数据多副本存储，提升数据安全性"
+          },
+          {
+            "text_style": "2",
+            "text_content": "- 数据多副本存储，提升数据安全性"
+          },
+          {
+            "text_style": "2",
+            "text_content": "- 数据多副本存储，提升数据安全性"
           },
           {
             "text_style": "2",
