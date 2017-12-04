@@ -95,20 +95,14 @@ function voluation(data) {
                     objLi[k].style.cssText = "background:#1cacde;"
                     objLi[k].getElementsByTagName('a')[0].style.cssText = 'color:#fff;'
                 }
-
                 objLi[k].onmouseover = function (event) {
-                    console.log(event.target.childNodes[1]);
                     if (event.target.nodeName.toLowerCase() == "li") {
                         if (event.target.style.background.length != 0) {
                             event.target.style.background = 'rgb(28, 172, 222)';
                             event.target.childNodes[1].style.color = "rgb(255,255,255) !important"
                         }
-                    } else if (event.target.nodeName.toLowerCase() == "a") {
-
                     }
-
                 }
-
             }
 
             for (var j = 0, len = objA.length; j < len; j++) {

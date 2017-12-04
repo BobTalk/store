@@ -93,18 +93,19 @@ function voluation(result) {
         str1 = "";
     for (var key in result) {
         if (urlObj.goodsId == key) {
-            (function () {
-                route.innerHTML = '<a href="index.html">首页</a>' +
-                    '<a href="javascript:void(0)">&gt;</a>' +
-                    '<a href="list.html?Id=' + result[key].oneId + '">' + result[key].oneName + '</a> ' +
-                    '<a href="javascript:void(0)">&gt;</a>' +
-                    '<a href="list.html?subId=' + result[key].twoId + '">' + result[key].twoName + '</a>' +
-                    '<a href="javascript:void(0)">&gt;</a>' +
-                    '<a href="javascript:void(0)" class="blur">' + result[key].name + '</a>';
-                goodsName.innerText = result[key].name;
-                money.innerText = result[key].price;
-                img.src = result[key].pUrl;
-            })();
+             (function () {
+            str1 += '<a href="index.html">首页</a>';
+            for (var ind in result[key]['pos']) {
+                str1 += '<a href="javascript:void(0)">&gt;</a>' +
+                    '<a href="list.html?Id=' + result[key]['pos'][ind].Id + '">' + result[key]['pos'][ind].Name + '</a> '
+            }
+            str1 += '<a href="javascript:void(0)">&gt;</a>' +
+                '<a href="javascript:void(0)" class="blur">' + result[key].name + '</a>';
+            route.innerHTML = str1;
+            goodsName.innerText = result[key].name;
+            money.innerText = result[key].price;
+            img.src = result[key].pUrl;
+              })();
             for (var index in result[key].serviceTerm) {
                 select.innerHTML += '<li>' + result[key].serviceTerm[index] + '</li>'
             }
@@ -220,5 +221,3 @@ function accordion() {
         }
     }
 }
-
-console.log(document.getElementsByClassName('basis-summary'));

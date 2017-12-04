@@ -31,9 +31,18 @@
 }
 
 .bannerInner div .banner-info .banner-info-name {
+    position: relative;
     font-size: .38rem;
     font-weight: 600;
     color: #fff;
+}
+
+.banner-info .banner-info-name .start {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: -.1rem;
 }
 
 .bannerInner div .banner-info .banner-info-summary {

@@ -104,6 +104,7 @@
                         '<div>' +
                         '<div class="banner-info">' +
                         '<p class="banner-info-name">' +
+                        '<i class="start"></i>' +
                         '<span>' + data[i].goodsNameF + '</span>' +
                         '<span> - </span>' +
                         '<span style="color:#f4d934;">' + data[i].goodsNameL + '</span>' +
@@ -156,6 +157,7 @@
         autoPlay: function () {
             index++; // index++之后的值就是我要运动到的终点
             if (index == data.length + 1) { // 目前正在从最后一张往后播放，赶紧切换到第一张（直接切换）
+
                 this.setCss(bannerInner, 'left', 0);
                 index = 1; // 向第二张运动，索引index的值应该是第二张索引
             }
@@ -196,8 +198,11 @@
                         bannerInfo[i].style.cssText = 'top:-50%';
                     } catch (e) {
                     }
-
                     if (index == i) {
+                        if (index == data.length - 1) {
+                            var start = bannerInfo[i].getElementsByTagName('i')[0];
+                            start.style.cssText = 'background: url("../images/start.png") no-repeat center;'
+                        }
                         bannerInfo[i].style.cssText = 'top:.6rem'
                     }
                 }
@@ -210,8 +215,8 @@
             this.showPic();
             this.infoAuto();
             var timer = window.setInterval(function () {
-             carousel.autoPlay()
-             }, 5000);
+                carousel.autoPlay()
+            }, 5000);
             this.navigation();
         }
     };
