@@ -139,106 +139,314 @@
       "sUrl": "../images/ser/20002.png"
     },
     "introduce": [
-      {
-        "type": "text",
-        "content": "弹性云主机（CT-ECS，Elastic Cloud Server）是一种可随时获取、弹性可扩展的计算服务。云主机由CPU、内存、镜像、云硬盘组成，同时它结合VPC、安全组、数据多副本保存等能力，打造一个高效、可靠、安全的计算环境，确保服务持久稳定运行。"
-      },
-      {
-        "type": "text_title",
-        "content": "产品优势"
-      },
-      {
-        "type": "text_table",
-        "head_name": "快速",
-        "content_group": [
-          {
-            "text_style": "1",
-            "text_content": "即开即用"
-          },
-          {
-            "text_style": "2",
-            "text_content": "- 无论一台还是百台，均可几分钟内开通使用"
-          }
-        ]
-      },
-      {
-        "type": "text_table",
-        "head_name": "灵活",
-        "content_group": [
-          {
-            "text_style": "1",
-            "text_content": "弹性扩展"
-          },
-          {
-            "text_style": "2",
-            "text_content": "- 提供多种规格云主机，还可随时升级云主机的CPU、内存、带宽等配置"
-          },
-          {
-            "text_style": "2",
-            "text_content": "- 基于弹性伸缩服务，根据业务变化实现云主机数量的自动调整"
-          },
-          {
-            "text_style": "2",
-            "text_content": "- 提供包年包月、按量计费等模式，成本控制更加灵活"
-          }
-        ]
-      },
-      {
-        "type": "text_table",
-        "head_name": "安全",
-        "content_group": [
-          {
-            "text_style": "1",
-            "text_content": "完善的安全防护"
-          },
-          {
-            "text_style": "2",
-            "text_content": "- Anti-DDoS流量清洗、服务器安全、网站安全服务"
-          },
-          {
-            "text_style": "2",
-            "text_content": "- 数据多副本存储，提升数据安全性"
-          },
-          {
-            "text_style": "2",
-            "text_content": "- 提供IPSec VPN、专线接入，保障用户接入安全"
-          }
-        ]
-      },
-      {
-        "type": "text_table",
-        "head_name": "稳定",
-        "content_group": [
-          {
-            "text_style": "1",
-            "text_content": "稳定可靠"
-          },
-          {
-            "text_style": "2",
-            "text_content": "- 支持云硬盘自动备份"
-          },
-          {
-            "text_style": "2",
-            "text_content": "- 专业运营团队7*24小时服务"
-          },
-          {
-            "text_style": "2",
-            "text_content": "- 五星级电信IDC环境"
-          },
-          {
-            "text_style": "2",
-            "text_content": "- 可用性高达99.95%"
-          }
-        ]
-      },
-      {
-        "type": "text_title",
-        "content": "产品功能"
-      },
-      {
-        "type": "text",
-        "content": "计算"
-      }
+            {
+                "type": "text",
+                "content": "弹性云主机（CT-ECS，Elastic Cloud Server）是一种可随时获取、弹性可扩展的计算服务。云主机由CPU、内存、镜像、云硬盘组成，同时它结合VPC、安全组、数据多副本保存等能力，打造一个高效、可靠、安全的计算环境，确保服务持久稳定运行。"
+            },
+            {
+                "type": "text_title",
+                "content": "产品优势"
+            },
+            {
+                "type": "text_table",
+                "head_name": "快速",
+                "content_group": [
+                    {
+                        "text_style": "1",
+                        "text_content": "即开即用"
+                    },
+                    {
+                        "text_style": "2",
+                        "text_content": "- 无论一台还是百台，均可几分钟内开通使用"
+                    }
+                ]
+            },
+            {
+                "type": "text_table",
+                "head_name": "灵活",
+                "content_group": [
+                    {
+                        "text_style": "1",
+                        "text_content": "弹性扩展"
+                    },
+                    {
+                        "text_style": "2",
+                        "text_content": "- 提供多种规格云主机，还可随时升级云主机的CPU、内存、带宽等配置"
+                    },
+                    {
+                        "text_style": "2",
+                        "text_content": "- 基于弹性伸缩服务，根据业务变化实现云主机数量的自动调整"
+                    },
+                    {
+                        "text_style": "2",
+                        "text_content": "- 提供包年包月、按量计费等模式，成本控制更加灵活"
+                    }
+                ]
+            },
+            {
+                "type": "text_table",
+                "head_name": "安全",
+                "content_group": [
+                    {
+                        "text_style": "1",
+                        "text_content": "完善的安全防护"
+                    },
+                    {
+                        "text_style": "2",
+                        "text_content": "- Anti-DDoS流量清洗、服务器安全、网站安全服务"
+                    },
+                    {
+                        "text_style": "2",
+                        "text_content": "- 数据多副本存储，提升数据安全性"
+                    },
+                    {
+                        "text_style": "2",
+                        "text_content": "- 提供IPSec VPN、专线接入，保障用户接入安全"
+                    }
+                ]
+            },
+            {
+                "type": "text_table",
+                "head_name": "稳定",
+                "content_group": [
+                    {
+                        "text_style": "1",
+                        "text_content": "稳定可靠"
+                    },
+                    {
+                        "text_style": "2",
+                        "text_content": "- 支持云硬盘自动备份"
+                    },
+                    {
+                        "text_style": "2",
+                        "text_content": "- 专业运营团队7*24小时服务"
+                    },
+                    {
+                        "text_style": "2",
+                        "text_content": "- 五星级电信IDC环境"
+                    },
+                    {
+                        "text_style": "2",
+                        "text_content": "- 可用性高达99.95%"
+                    }
+                ]
+            },
+            {
+                "type": "text_title",
+                "content": "产品功能"
+            },
+            {
+                "type": "text_table",
+                "head_name": "计算",
+                "content_group": [
+                    {
+                        "text_style": "1",
+                        "text_content": "规格丰富、随需购买、满足不同应用场景需求"
+                    },
+                    {
+                        "text_style": "2",
+                        "text_content": "我们提供了多种规格云主机供用户选择："
+                    },
+                    {
+                        "text_style": "2",
+                        "text_content": "CPU支持1核—32核"
+                    },
+                    {
+                        "text_style": "2",
+                        "text_content": "内存支持1G—128G"
+                    },
+                    {
+                        "text_style": "2",
+                        "text_content": "CPU与内存的资源配比为1:1；1:2；1:4"
+                    },
+                    {
+                        "text_style": "2",
+                        "text_content": "带宽升级不影响业务正常运行，CPU内存升级仅数分钟，高可用性为您保驾护航。"
+                    },
+                    {
+                        "text_style": "1",
+                        "text_content": "支持3种存储类型，满足不同的 I/O 性能要求"
+                    },
+                    {
+                        "text_style": "2",
+                        "text_content": "可为云主机实例搭配云硬盘，满足持久性、高可靠的存储要求。天翼云推出SATA、SAS和SSD三种不同IO性能云硬盘，满足不同应用场景需求"
+                    },
+                    {
+                        "text_style": "1",
+                        "text_content": "多节点可选，国内外部署资源"
+                    },
+                    {
+                        "text_style": "2",
+                        "text_content": "目前我们提供北京、上海、广州、内蒙、厦门、贵州等内地节点，同时还推出香港及海外节点。"
+                    }
+                ]
+            },
+            {
+                "type": "text_table",
+                "head_name": "存储",
+                "content_group": [
+                    {
+                        "text_style": "1",
+                        "text_content": "多种存储类型随意选择，满足不同I/O性能要求"
+                    },
+                    {
+                        "text_style": "2",
+                        "text_content": "云主机可搭配云硬盘使用，以获得高可靠存储能力。您可以单独购买云硬盘挂载到云主机上。根据用户业务对IO性能需求不同，我们推出3种不同类型的云硬盘。"
+                    }
+                ]
+            },
+            {
+                "type": "text_table",
+                "head_name": "管理",
+                "content_group": [
+                    {
+                        "text_style": "1",
+                        "text_content": "可视化管理平台，操作便捷"
+                    },
+                    {
+                        "text_style": "2",
+                        "text_content": "为您提供了智能控制中心对云主机进行管理。您可对云主机进行开机、关机、重置密码、重装系统等操作。"
+                    },
+                    {
+                        "text_style": "1",
+                        "text_content": "提供多种登录方式，安全高效"
+                    },
+                    {
+                        "text_style": "2",
+                        "text_content": "登录云主机的方式有：VNC登录、SSH方式登录（Linux云主机）、MSTSC方式登录（Windows）。"
+                    },
+                    {
+                        "text_style": "1",
+                        "text_content": "- VNC方式登录"
+                    },
+                    {
+                        "text_style": "2",
+                        "text_content": "可通过VNC方式登录云主机控制台，查看云主机运行状况。同时此种登录方式也适用于未绑定弹性IP的云主机登录查看。"
+                    },
+                    {
+                        "text_style": "1",
+                        "text_content": "- SSH方式"
+                    },
+                    {
+                        "text_style": "2",
+                        "text_content": "仅适用于Linux云主机。登录方式分为两种，您可以选择使用SSH工具登录，也可以选择使用SSH方式登录。"
+                    },
+                    {
+                        "text_style": "1",
+                        "text_content": "- MSTSC方式登录"
+                    },
+                    {
+                        "text_style": "2",
+                        "text_content": "仅适用于Windows云主机。您可以通过在本机运行MSTSC方式登录，目前仅支持使用密码方式登录。"
+                    }
+                ]
+            },
+            {
+                "type": "text_table",
+                "head_name": "网络",
+                "content_group": [
+                    {
+                        "text_style": "1",
+                        "text_content": "通过虚拟私有云（VPC）实现网络的灵活规划"
+                    },
+                    {
+                        "text_style": "1",
+                        "text_content": "- VPC"
+                    },
+                    {
+                        "text_style": "2",
+                        "text_content": "为您提供一个逻辑隔离的网络，您可VPC实现云中的网络规划，包括创建子网、配置安全组、配置DHCP、连接公网，或者使用VPN将VPC与企业数据中心互联。"
+                    },
+                    {
+                        "text_style": "1",
+                        "text_content": "- 子网"
+                    },
+                    {
+                        "text_style": "2",
+                        "text_content": "子网是用来管理云主机网络平面的一个网络，可以提供IP地址管理、DHCP访问、DNS服务等。 "
+                    },
+                    {
+                        "text_style": "1",
+                        "text_content": "多种接入方式，满足不同场景需求"
+                    },
+                    {
+                        "text_style": "1",
+                        "text_content": "- 提供互联网接入"
+                    },
+                    {
+                        "text_style": "2",
+                        "text_content": "支持通过绑定弹性IP，使云主机与Internet实现通信。"
+                    },
+                    {
+                        "text_style": "1",
+                        "text_content": "- 提供专线接入"
+                    },
+                    {
+                        "text_style": "2",
+                        "text_content": "支持从用户本地IDC机房通过电信CN2专线、MPLS专线接入到天翼云资源池的VPC中，进行私网通信。"
+                    },
+                    {
+                        "text_style": "1",
+                        "text_content": "- 提供IPSec VPN接入"
+                    },
+                    {
+                        "text_style": "2",
+                        "text_content": "IPSec VPN用于在远端用户和VPC之间建立一条点对点、安全加密的通信隧道，使远端用户通过VPN直接使用VPC中的业务资源。"
+                    }
+                ]
+            },
+            {
+                "type": "text_table",
+                "head_name": "安全",
+                "content_group": [
+                    {
+                        "text_style": "1",
+                        "text_content": "提供5G免费的DDoS攻击流量清洗，保障云主机安全 "
+                    },
+                    {
+                        "text_style": "2",
+                        "text_content": "通过专业的DDoS防护设备来为用户互联网应用提供精细化的抵御DDOS攻击能力，如UDP Flood攻击、SYN Flood攻击和CC攻击等。用户可根据业务模型配置流量参数阈值，可监控攻防状态，并查看每日或每周报告。"
+                    },
+                    {
+                        "text_style": "1",
+                        "text_content": "全面监控及告警机制，保障云主机正常运行"
+                    },
+                    {
+                        "text_style": "2",
+                        "text_content": "面向天翼云全线产品提供监控服务，实现性能指标监控、自动告警、历史信息查询等功能。借助云监控服务，用户可以更详细的了解云资源使用情况，方便用户及时调整。 "
+                    }
+                ]
+            },
+            {
+                "type": "text_table",
+                "head_name": "镜像",
+                "content_group": [
+                    {
+                        "text_style": "1",
+                        "text_content": "多种镜像，实现业务的快速部署 "
+                    },
+                    {
+                        "text_style": "2",
+                        "text_content": "支持常用的Linux、Windows镜像，如CentOS、Ubuntu、Debian等。"
+                    },
+                    {
+                        "text_style": "2",
+                        "text_content": "支持将云主机导成私有镜像，并可基于私有镜像创建云主机，实现业务的批量、快速部署。"
+                    },
+                    {
+                        "text_style": "2",
+                        "text_content": "支持将私有镜像共享给其它用户，方便多用户统一部署。"
+                    }
+                ]
+            },
+            {
+                "type": "picture",
+                "content": "../images/content/10002001.png"
+            },
+            {
+                "type": "picture",
+                "content": "../images/content/10002002.png"
+            }
     ]
   },
   "10003": {
@@ -266,6 +474,10 @@
       "sUrl": "../images/ser/20002.png"
     },
     "introduce": [
+    	{
+        "type": "picture",
+        "content": "../images/content/10003001.jpg"
+      }
     ]
   },
   "10004": {
@@ -1785,8 +1997,8 @@
     },
     "introduce": [
       {
-        "type": "text",
-        "content": ""
+        "type": "picture",
+        "content": "../images/content/10037001.jpg"
       }
     ]
   }

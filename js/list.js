@@ -110,8 +110,8 @@ function voluation(data) {
                     objA[j].style.cssText = "color:#1b4c98;"
                 }
             }
-            for (var i = 0, len = data[key].childs.length; i < len; i += 3) {
-                arry.push(data[key].childs.slice(i, i + 3));
+            for (var i = 0, len = data[key].childs.length; i < len; i += 5) {
+                arry.push(data[key].childs.slice(i, i + 5));
             }
             for (var q = 0; q < arry.length; q++) {
                 str += "<div class='date'>"

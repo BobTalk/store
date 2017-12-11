@@ -5,25 +5,24 @@
     <META HTTP-EQUIV="pragma" CONTENT="no-cache">
     <META HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
     <META HTTP-EQUIV="expires" CONTENT="0">
-    <title></title>
+    <title>网上商城</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/detail.css">
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/list.css">
+    <script src="../js/public.js"></script>
     <script src="../js/list.js"></script>
 </head>
 <body style="background: #f6f4f5">
 <header class="head">
     <div class="top">
         <ul class="nav auto">
-            <li>
+            <li id="username">
                 <span>欢迎回来</span>
-                <a href="javascript:void(0)">admin</a>
+                <a href="javascript:void(0)"></a>
             </li>
-            <li>
+            <li id="reg_login">
                 <a href="javascript:void(0)" class="login">登录</a>
-            </li>
-            <li>
                 <a href="javascript:void(0)" class="register">注册</a>
             </li>
         </ul>
@@ -168,17 +167,22 @@
 </footer>
 <!--<script  src="../js/pagination.js" defer></script>-->
 <script>
-    var navBar = document.getElementById('navBar');
-    var allL = navBar.getElementsByClassName("d-list");
-    for (var i = 0, len = allL.length; i < len; i++) {
-        /*allL[i].onmouseover = function () {
+    var username = document.getElementById('username');
+    var arryA = username.getElementsByTagName('a');
+    var url = window.location.href;
+    var urlObj = format(url);
+    if (urlObj.type == "1") {
+        arryA[0].innerText = 'admin'
+        document.getElementById('reg_login').style.cssText = "display:none;"
 
-         for (var i = 0, len = allL.length; i < len; i++) {
-         allL[i].className = 'd-list';
-         allL[i].style.background = '';
-         }
-         this.style.background = '#eeeeee';
-         }*/
+    }
+    if (urlObj.type == "2") {
+        arryA[0].innerText = 'user'
+        document.getElementById('reg_login').style.cssText = "display:none;"
+
+    }
+    if (urlObj.type == "3" || urlObj.type == undefined) {
+        username.style.cssText = "display:none;"
     }
 </script>
 </body>

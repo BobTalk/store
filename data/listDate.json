@@ -142,15 +142,6 @@
         "assess": "1"
       },
       {
-        "id": "10015",
-        "name": "发票代购",
-        "content": "",
-        "url": "../images/list/10015.png",
-        "popu": "15",
-        "sales": "15",
-        "assess": "1"
-      },
-      {
         "id": "10016",
         "name": "国内加急申请商标注册（1天即可出受理号）",
         "content": "",
@@ -533,15 +524,6 @@
         "popu": "14",
         "sales": "14",
         "assess": "1"
-      },
-      {
-        "id": "10015",
-        "name": "发票代购",
-        "content": "",
-        "url": "../images/list/10015.png",
-        "popu": "15",
-        "sales": "15",
-        "assess": "1"
       }
     ]
   },
@@ -853,21 +835,6 @@
         "url": "../images/list/10014.png",
         "popu": "14",
         "sales": "14",
-        "assess": "1"
-      }
-    ]
-  },
-  "104": {
-    "id": "1",
-    "name": "税务代办    ",
-    "childs": [
-      {
-        "id": "10015",
-        "name": "发票代购",
-        "content": "",
-        "url": "../images/list/10015.png",
-        "popu": "15",
-        "sales": "15",
         "assess": "1"
       }
     ]

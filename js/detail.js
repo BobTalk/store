@@ -1,68 +1,3 @@
-/*
- *解析路径参数
- * return obj
- * */
-function format(url) {
-    var str = "";
-    var obj = {};
-    /*var url = window.location.href;*/
-    try {
-        var arr = url.split("?");
-        var params = arr[1].split("&");
-        var obj1 = {};
-        for (var i = 0; i < params.length; i++) {
-            var param = params[i].split("=");
-            obj[param[0]] = param[1];
-        }
-    } catch (e) {
-    }
-    return obj;
-}
-
-/*
- * ajax的封装
- * */
-function $ajax(options) {
-    var _default = {
-        url: null,
-        data: null,
-        method: 'get',
-        dataType: "json",
-        async: "true",
-        cache: true,
-        success: null,
-        error: null
-    }
-    for (var key in options) {
-        if (key === 'type') {
-            _default.method = options['type'];
-        }
-        _default[key] = options[key];
-    }
-    var xhr = new XMLHttpRequest;
-    var result = null;
-    xhr.open(_default.method, _default.url, _default.async);
-    xhr.onreadystatechange = function () {
-        if (/^(2|3)\d{2}$/.test(xhr.status)) {
-            if (xhr.readyState == 4) {
-                result = xhr.responseText;
-                switch (_default.dataType.toUpperCase()) {
-                    case "JSON":
-                        result = "JSON" in window ? JSON.parse(result) : eval(result);
-                        break;
-                    case "XML":
-                        result = xhr.responseXML;
-                        break;
-                }
-                _default.success && _default.success.call(xhr, result);
-            }
-            _default.error && _default.error.call(xhr, result);
-        }
-        return result;
-    }
-    xhr.send(_default.data);
-}
-
 /*获取数据*/
 (function () {
     $ajax({
@@ -87,25 +22,41 @@ function voluation(result) {
     var select = document.getElementById('select');
     var medium = document.getElementById('medium');
     var seal = document.getElementById('seal');
+    var buy = document.getElementById('buy');
+    var username = document.getElementById('username');
+    var arryA = username.getElementsByTagName('a');
     var url = window.location.href;
     var urlObj = format(url);
     var str = "",
-        str1 = "";
+        str1 = "",
+        str2 = "",
+        str3 = "";
+    if (urlObj.type == "1") {
+        arryA[0].innerText = 'admin'
+        document.getElementById('reg_login').style.cssText = "display:none;"
+    }
+    if (urlObj.type == "2") {
+        arryA[0].innerText = 'user';
+        document.getElementById('reg_login').style.cssText = "display:none;"
+    }
+    if (urlObj.type == "3" || urlObj.type == undefined) {
+        username.style.cssText = "display:none;"
+    }
     for (var key in result) {
         if (urlObj.goodsId == key) {
-             (function () {
-            str1 += '<a href="index.html">首页</a>';
-            for (var ind in result[key]['pos']) {
+            (function () {
+                str1 += '<a href="index.html">首页</a>';
+                for (var ind in result[key]['pos']) {
+                    str1 += '<a href="javascript:void(0)">&gt;</a>' +
+                        '<a href="list.html?Id=' + result[key]['pos'][ind].Id + '">' + result[key]['pos'][ind].Name + '</a> '
+                }
                 str1 += '<a href="javascript:void(0)">&gt;</a>' +
-                    '<a href="list.html?Id=' + result[key]['pos'][ind].Id + '">' + result[key]['pos'][ind].Name + '</a> '
-            }
-            str1 += '<a href="javascript:void(0)">&gt;</a>' +
-                '<a href="javascript:void(0)" class="blur">' + result[key].name + '</a>';
-            route.innerHTML = str1;
-            goodsName.innerText = result[key].name;
-            money.innerText = result[key].price;
-            img.src = result[key].pUrl;
-              })();
+                    '<a href="javascript:void(0)" class="blur">' + result[key].name + '</a>';
+                route.innerHTML = str1;
+                goodsName.innerText = result[key].name;
+                money.innerText = result[key].price;
+                img.src = result[key].pUrl;
+            })();
             for (var index in result[key].serviceTerm) {
                 select.innerHTML += '<li>' + result[key].serviceTerm[index] + '</li>'
             }
@@ -117,10 +68,13 @@ function voluation(result) {
                 }
             }
             for (var i = 0, len = result[key].introduce.length; i < len; i++) {
+                //console.log("sun === " + i);
                 if (result[key].introduce[i].type == 'text') {
-                    introduce.innerHTML += '<div class="service clear"><div class="service-content"> ' + result[key].introduce[i].content + '</div></div>'
+                    //console.log("text ==== " + i);
+                    str += '<div class="service clear"><div class="service-content"> ' + result[key].introduce[i].content + '</div></div>'
                 }
                 if (result[key].introduce[i].type == 'text_table') {
+                    //console.log("text_table ==== " + i);
                     str += '<div class="performance clear">' +
                         '<div class="performance-box" style="display: flex;flex-direction: row;">' +
                         '<div class="basis">' +
@@ -136,21 +90,39 @@ function voluation(result) {
                         }
                     }
                     str += '</div></div></div></div>';
+                    //introduce.innerHTML = str;
+                }
+
+                if (result[key].introduce[i].type == 'picture') {
+                    //console.log("picture ==== " + i);
+                    str += '<div class="service clear">' +
+                        '<div style="padding: .1rem;text-indent:0;" class="service-content">' +
+                        '<img style="width: 100%;height: 100%;" src="' + result[key].introduce[i].content + '" alt="">' +
+                        '</div>' +
+                        '</div>'
 
                 }
-                introduce.innerHTML = str;
-                if (result[key].introduce[i].type == 'picture') {
-                    introduce.innerHTML += '<div class="service clear"><div style="padding: .1rem;text-indent:0;" class="service-content"><img style="width: 100%;height: 100%;" src="' + result[key].introduce[i].content + '" alt=""></div></div>'
-                }
                 if (result[key].introduce[i].type == 'text_title') {
-                    introduce.innerHTML += '<div class="performance clear">' +
+                    //console.log("text_title ==== " + i);
+                    str += '<div class="performance clear">' +
                         '<div class="introduce-name">' +
                         '<span>' + result[key].introduce[i].content + '</span>' +
                         '<span style="position:absolute;width:7.82rem;top: 50%;right:0;border-bottom: 1px solid #1cacdc;margin-left: .15rem;"></span> ' +
                         '</div></div>';
                 }
             }
+            introduce.innerHTML = str;
         }
+        if (urlObj.goodsId == "10002") {
+            buy.href = "http://www.ctyun.cn/"
+        }
+        if (urlObj.goodsId == "10036") {
+            buy.href = "http://developer.189.cn"
+        }
+        if (urlObj.goodsId == "10037") {
+            buy.href = "http://id.189.cn/banner/unPassword"
+        }
+        buy.setAttribute("target", "_blank");
     }
 }
 

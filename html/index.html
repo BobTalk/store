@@ -2,24 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>网上商城</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/detail.css">
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/carouselLF.css">
+    <script src="../js/public.js"></script>
 </head>
 <body style="background: #f6f4f5;">
 <header class="head">
     <div class="top">
         <ul class="nav auto">
-            <li>
+            <li id="username">
                 <span>欢迎回来</span>
-                <a href="javascript:void(0)">admin</a>
+                <a href="javascript:void(0)"></a>
             </li>
-            <li>
+            <li id="reg_login">
                 <a href="javascript:void(0)" class="login">登录</a>
-            </li>
-            <li>
                 <a href="javascript:void(0)" class="register">注册</a>
             </li>
         </ul>
@@ -119,7 +118,6 @@
                         <i class="icon"></i>
                         <ul class="navbar-info">
                             <li class="sub-list"><a href="list.html?subId=19">代理记账</a></li>
-                            <li class="sub-list"><a href="list.html?subId=104">税务代办</a></li>
                         </ul>
                     </li>
                     <li class="list">
@@ -163,12 +161,13 @@
                         <div class="wares-info">
                             <p class="wares-name">创业基地</p>
                             <p class="wares-summary">提供优美的办公环境</p>
-                            <a href="/ctinno/base.html" class="wares-buy">立即开通</a>
+                            <a href="http://106.39.30.151:9000/ctinno/base.jsp " class="wares-buy"
+                               target="_blank">查看详情</a>
                         </div>
                     </li>
                     <li>
                         <div class="wares-icon">
-                            <img src="../images/house/2.png" alt="">
+                            <img src="../images/house/10005.png" alt="">
                         </div>
                         <div class="wares-info">
                             <p class="wares-name">手机服务</p>
@@ -178,37 +177,57 @@
                     </li>
                     <li>
                         <div class="wares-icon">
-                            <img src="../images/house/3.png" alt="">
+                            <img src="../images/house/10002.png" alt="">
                         </div>
                         <div class="wares-info">
-                            <p class="wares-name">固话服务</p>
-                            <p class="wares-summary">爱自己，爱家庭，爱生活</p>
-                            <a href="detail.html?goodsId=10006" class="wares-buy">立即开通</a>
+                            <p class="wares-name">云主机</p>
+                            <p class="wares-summary">高效，可靠，安全</p>
+                            <a href="detail.html?goodsId=10002" class="wares-buy">立即开通</a>
                         </div>
                     </li>
                     <li>
                         <div class="wares-icon">
-                            <img src="../images/house/4.png" alt="">
+                            <img src="../images/house/10036.png" alt="">
                         </div>
                         <div class="wares-info">
-                            <p class="wares-name">宽带服务</p>
-                            <p class="wares-summary">续约提速，光纤新装</p>
-                            <a href="detail.html?goodsId=10007" class="wares-buy">立即开通</a>
+                            <p class="wares-name">云中继</p>
+                            <p class="wares-summary">一点对接，集中管控</p>
+                            <a href="detail.html?goodsId=10036" class="wares-buy">立即开通</a>
                         </div>
                     </li>
                     <li>
                         <div class="wares-icon">
-                            <img src="../images/house/5.png" alt="">
+                            <img src="../images/house/10008.png" alt="">
                         </div>
                         <div class="wares-info">
-                            <p class="wares-name">智能语音平台</p>
-                            <p class="wares-summary">企业通信从未如此简单</p>
-                            <a href="detail.html?goodsId=10004" class="wares-buy">立即开通</a>
+                            <p class="wares-name">随选网络</p>
+                            <p class="wares-summary">可视，随选，自服务</p>
+                            <a href="detail.html?goodsId=10008" class="wares-buy">立即开通</a>
                         </div>
                     </li>
                     <li>
                         <div class="wares-icon">
-                            <img src="../images/house/6.png" alt="">
+                            <img src="../images/house/10001.png" alt="">
+                        </div>
+                        <div class="wares-info">
+                            <p class="wares-name">飞龙平台</p>
+                            <p class="wares-summary">平台，数据，服务</p>
+                            <a href="detail.html?goodsId=10015" class="wares-buy">立即开通</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wares-icon">
+                            <img src="../images/house/10037.png" alt="">
+                        </div>
+                        <div class="wares-info">
+                            <p class="wares-name">免密登录</p>
+                            <p class="wares-summary">更安全，更高效</p>
+                            <a href="detail.html?goodsId=10037" class="wares-buy">立即开通</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="wares-icon">
+                            <img src="../images/house/10009.png" alt="">
                         </div>
                         <div class="wares-info">
                             <p class="wares-name">有限责任公司注册</p>
@@ -218,17 +237,7 @@
                     </li>
                     <li>
                         <div class="wares-icon">
-                            <img src="../images/house/7.png" alt="">
-                        </div>
-                        <div class="wares-info">
-                            <p class="wares-name">个人独资企业注册</p>
-                            <p class="wares-summary">内/外资注册，一键畅通</p>
-                            <a href="detail.html?goodsId=10010" class="wares-buy">立即开通</a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="wares-icon">
-                            <img src="../images/house/8.png" alt="">
+                            <img src="../images/house/10014.png" alt="">
                         </div>
                         <div class="wares-info">
                             <p class="wares-name">代理记账</p>
@@ -238,21 +247,11 @@
                     </li>
                     <li>
                         <div class="wares-icon">
-                            <img src="../images/house/9.png" alt="">
-                        </div>
-                        <div class="wares-info">
-                            <p class="wares-name">发票代购</p>
-                            <p class="wares-summary">网上申请三步走</p>
-                            <a href="detail.html?goodsId=10015" class="wares-buy">立即开通</a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="wares-icon">
-                            <img src="../images/house/10.png" alt="">
+                            <img src="../images/house/10023.png" alt="">
                         </div>
                         <div class="wares-info">
                             <p class="wares-name">社保公积金开户</p>
-                            <p class="wares-summary">我们跟专业</p>
+                            <p class="wares-summary">我们更专业</p>
                             <a href="detail.html?goodsId=10023" class="wares-buy">立即开通</a>
                         </div>
                     </li>
@@ -289,7 +288,6 @@
                         <li>
                             <p class="link-title"><i class="circles"></i>财税记账</p>
                             <a href="list.html?Id=103">代理记账</a>
-                            <a href="list.html?Id=104">税务代办</a>
                         </li>
                         <li>
                             <p class="link-title"><i class="circles"></i>商标版权</p>
@@ -451,4 +449,24 @@
 </footer>
 </body>
 <script src="../js/carouselLf.js"></script>
+<script>
+    var username = document.getElementById('username');
+    var arryA = username.getElementsByTagName('a');
+    var url = window.location.href;
+    var urlObj = format(url);
+    if (urlObj.type == "1") {
+        arryA[0].innerText = 'admin'
+        document.getElementById('reg_login').style.cssText = "display:none;"
+        setCookie('username', 'admin');
+    }
+    if (urlObj.type == "2") {
+        arryA[0].innerText = 'user'
+        document.getElementById('reg_login').style.cssText = "display:none;"
+        setCookie('username', 'user');
+    }
+    if (urlObj.type == "3" || urlObj.type == undefined) {
+        username.style.cssText = "display:none"
+        delCookie("username")
+    }
+</script>
 </html>
